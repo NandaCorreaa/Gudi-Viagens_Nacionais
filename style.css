@@ -131,6 +131,10 @@ header li {
     border: solid #FFF 1px;
 }
 
+.divInfoAzul button:hover {
+    background-color: #8b8b8b48;
+}
+
 .amigosNaMontanha {
     background-image: url("./Assets/amigosNaMontanha.png");
     background-size: cover;   
@@ -216,4 +220,164 @@ header li {
 .amazonia {
     background-image: url("./Assets/amazonia.png");
     background-size: cover;
+}
+
+.muralExperiencias {
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.muralTitulo {
+    color: #8B8B8B;
+    text-align: center;
+    font-weight: 600;
+    width: 35%;
+}
+
+.muralTitulo p {
+    font-size: 35px;
+}
+
+.muralTitulo h2 {
+    font-size: 60px;
+}
+
+.muralImagens {
+    width: 65%;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.muralImagens div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.muralCards {
+    width: 65%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.muralCards figure {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.muralCards img {
+    width: 7vw;
+    height: 14vh;
+}
+
+.muralCards figcaption {
+    text-align: center;
+    width: 80%;
+    height: 10vh;
+}
+
+.cardCinza {
+    background-color: #EEEEEE;
+    color: #005BD5;
+}
+
+.cardAzul {
+    background-color: #005BD5;
+    color: #FFFFFF;
+}
+
+.cardCinza figcaption {
+    width: 50%;
+}
+
+.form {
+    height: 72vh;
+    background-color: #005BD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form form {
+    width: 38%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #AFB3B8;
+}
+
+.form h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.form input {
+    width: 88%;
+    height: 6vh;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.form textarea {
+    width: 88%;
+    height: 15vh;
+    border-radius: 30px;  
+    padding: 20px 20px;  
+    font-size: 18px;
+}
+
+.form button {
+    background: none;
+    border: solid #FFF 1.5px;
+    border-radius: 50px;
+    height: 6vh;
+}
+
+.form button:hover {
+    background-color: #8b8b8b48;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+footer div {
+    width: 13%;
+    height: 30vh;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #005BD5;
+    font-weight: 600;
+}
+
+footer h3 {
+    font-size: 40px;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer a {
+    color: #005BD5;
 }
